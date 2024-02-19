@@ -11,4 +11,5 @@ def filterr_prime(numbers):
     return [num for num in numbers if filter_prime(num)]
         
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-print(filterr_prime(my_list))
+numss = filterr_prime(my_list)
+print(numss)
