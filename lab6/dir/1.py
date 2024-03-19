@@ -1,5 +1,6 @@
+import os
 def inf_about_path():
-    path = r"C:\Users\вставляешь короче путь"
+    path = r"C:\Users\Timur\Documets\PP2\lab6\dir"
     print("Directories:")
     print(
         [name for name in os.listdir(path) if os.path.isdir(os.path.join(path, name))]
