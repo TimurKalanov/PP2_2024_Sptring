@@ -1,5 +1,6 @@
 import pygame
 
+    
 
 def rect(screen):
     x_local, y_local = x, y
@@ -47,7 +48,18 @@ def right_triangle(screen):
 
 def rhombus(screen):
     pygame.draw.polygon(screen, colors[current_color],
-                        [(x2 - 30, y2 + 20), (x2, y2), (x2 + 30, y2 + 20), (x2, y2 + 40)])
+                        [(x2 - 30, y2 + 35), (x2, y2), (x2 + 20, y2 + 0.5), (x2, y2 + 0.5)])
+    pygame.draw.polygon(screen, colors[current_color],
+                        [(x2 - 100, y2 + 0.5), (x2, y2), (x2 + 100, y2 + 0.5), (x2, y2 + 0.5)])
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 pygame.init()
